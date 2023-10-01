@@ -7,7 +7,24 @@
     <title>To-Do</title>
   </head>
   <body>
-    <h1>The To-do App</h1>
+    <main>
+      <div id="main-heading">
+        <h1 id="heading">
+          <span style="font-style: italic">The To-do App</span> 📃
+        </h1>
+      </div>
+      <div id="the-list">
+        <div class="task">
+          <input type="checkbox" name="completed" id="completed" />
+          <input type="text" name="desc" id="desc" />
+          <input type="button" value="del" />
+        </div>
+        <div class="new-task">
+          <input type="button" value="add task" onclick="addTask()" />
+          <p style="display: inline-block"></p>
+        </div>
+      </div>
+    </main>
     <script src="./js/main.js"></script>
   </body>
 </html>

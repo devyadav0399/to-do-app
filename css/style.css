@@ -58,8 +58,30 @@ h6 {
 body {
   background-color: var(--primary-color);
   font-family: "Cabin", sans-serif;
+  height: 100vh;
+  width: 100vw;
 }
 
-h1 {
-  color: var(--accent-color);
+main {
+  height: 100%;
+}
+
+#main-heading {
+  width: 100%;
+  margin: auto;
+  background-color: var(--tertiary-color);
+}
+
+#heading {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+#the-list {
+  background-color: white;
+  height: 60%;
+  width: 22%;
+  margin: 7.5% auto;
 }
